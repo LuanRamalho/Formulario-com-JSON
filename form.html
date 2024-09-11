@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Usuário</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Preencha o Formulário</h2>
+    <form id="userForm">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="age">Idade:</label>
+        <input type="text" id="age" name="age" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="location">Local de Residência:</label>
+        <input type="text" id="location" name="location" required>
+
+        <label>Sexo:</label>
+        <div class="radio-group">
+            <label><input type="radio" id="male" name="gender" value="Masculino" required> Masculino</label>
+            <label><input type="radio" id="female" name="gender" value="Feminino" required> Feminino</label>
+        </div>
+
+        <label for="hobbies">Hobbies:</label>
+        <textarea id="hobbies" name="hobbies" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+</div>
+
+<script src="form.js"></script>
+
+</body>
+</html>
