@@ -1,0 +1,162 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaeef1; /* Cor de fundo mais suave */
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px; /* Cantos mais arredondados */
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px; /* Tamanho da fonte maior para destaque */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #444; /* Cor um pouco mais escura */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 12px; /* Mais espaço interno */
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Cantos mais arredondados */
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+    height: 120px; /* Altura um pouco maior */
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.radio-group label {
+    font-weight: normal;
+}
+
+button {
+    padding: 12px; /* Mais espaço interno */
+    background-color: #4CAF50; /* Cor do botão */
+    color: white;
+    border: none;
+    border-radius: 8px; /* Cantos mais arredondados */
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+button:hover {
+    background-color: #45a049; /* Cor do botão ao passar o mouse */
+}
+
+@media (max-width: 600px) {
+    .container {
+        margin: 20px;
+        padding: 15px;
+    }
+
+    form {
+        gap: 10px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px; /* Mais espaço nas células */
+    text-align: left;
+    border: 1px solid #ddd; /* Borda mais leve */
+}
+
+th {
+    background-color: #4CAF50; /* Cor do cabeçalho da tabela */
+    color: white;
+    font-size: 18px; /* Tamanho da fonte maior para o cabeçalho */
+}
+
+td {
+    background-color: #f9f9f9; /* Fundo das células */
+    transition: background-color 0.3s; /* Transição suave ao passar o mouse */
+}
+
+td:hover {
+    background-color: #eaeef1; /* Efeito ao passar o mouse */
+}
+
+tr:nth-child(even) td {
+    background-color: #f2f2f2; /* Cor de fundo para linhas pares */
+}
+
+tr:nth-child(odd) td {
+    background-color: #ffffff; /* Cor de fundo para linhas ímpares */
+}
+
+tr:hover td {
+    background-color: #d9e9d9; /* Efeito ao passar o mouse em toda a linha */
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+button {
+    padding: 12px; /* Consistência no tamanho do botão */
+    margin-right: 10px;
+    background-color: #4CAF50; /* Cor do botão */
+    color: white;
+    border: none;
+    border-radius: 8px; /* Cantos arredondados */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+button:hover {
+    background-color: #45a049; /* Cor do botão ao passar o mouse */
+}
+
+
+input[type="text"] {
+    padding: 12px; /* Mais espaço interno */
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 8px; /* Cantos mais arredondados */
+    box-sizing: border-box;
+    border: 1px solid #ccc; /* Adicionando borda ao campo de texto */
+}
